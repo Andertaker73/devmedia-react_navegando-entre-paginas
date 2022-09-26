@@ -1,5 +1,5 @@
 import React from "react"
-import BotaoVoltar from "../BotaoVoltar"
+import BotaoVoltar from "../../componentes/BotaoVoltar"
 
 const PaginaBackEnd = () => (
   <div>

@@ -1,8 +1,8 @@
 import React from "react"
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import PaginaBackEnd from "../PaginaBackEnd"
-import PaginaFrontEnd from "../PaginaFrontEnd"
-import PaginaInicial from "../PaginaInicial"
+import PaginaBackEnd from "../paginas/PaginaBackEnd"
+import PaginaFrontEnd from "../componentes/PaginaFrontEnd"
+import PaginaInicial from "../paginas/PaginaInicial"
 
 const Rotas = () => (
   <BrowserRouter>
