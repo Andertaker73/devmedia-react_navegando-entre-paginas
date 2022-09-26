@@ -1,11 +1,12 @@
 import React from "react"
+import { Link } from "react-router-dom"
 import "./style.css"
 
 const BotaoVoltar = () => (
   <div className="area-botao">
-    <a className="botao-voltar" href="/">
+    <Link className="botao-voltar" to="/">
       Voltar
-    </a>
+    </Link>
   </div>
 )
 

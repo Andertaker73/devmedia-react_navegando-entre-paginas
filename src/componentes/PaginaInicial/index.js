@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 import "./style.css"
 
 const PaginaInicial = () => (
@@ -6,12 +7,12 @@ const PaginaInicial = () => (
     <h1>Escolha seu caminho em JavaScript</h1>
 
     <div className="conteudo-opcoes">
-      <a className="opcao-front-end" href="/front-end">
+      <Link className="opcao-front-end" to="/front-end">
         Front-end
-      </a>
-      <a className="opcao-back-end" href="/back-end">
+      </Link>
+      <Link className="opcao-back-end" to="/back-end">
         Back-end
-      </a>
+      </Link>
     </div>
   </div>
 )
