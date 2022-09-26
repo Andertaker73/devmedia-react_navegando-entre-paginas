@@ -1,4 +1,4 @@
-.conteudo-opcoes{
+.conteudo-opcoes {
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
@@ -10,12 +10,12 @@
   font-weight: 500;
 }
 
-.opcao-front-end{
+.opcao-front-end {
   background-color: #61dafb;
   color: blue;
 }
 
-.opcao-back-end{
+.opcao-back-end {
   background-color: #43853d;
-  color: #fff 
+  color: #fff;
 }
